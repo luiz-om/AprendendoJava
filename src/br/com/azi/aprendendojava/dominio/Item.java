@@ -13,5 +13,11 @@ public class Item {
         this.anoCriacao = _anoCriacao;
     }
 
-
+    @Override
+    public String toString() {
+        return "Item{" +
+                "nome='" + nome + '\'' +
+                ", anoCriacao=" + anoCriacao +
+                '}';
+    }
 }
