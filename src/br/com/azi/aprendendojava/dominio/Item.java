@@ -1,5 +1,8 @@
 package br.com.azi.aprendendojava.dominio;
 
+import lombok.Data;
+
+@Data
 public class Item {
     private String nome;
     private int anoCriacao;
@@ -9,4 +12,6 @@ public class Item {
         this.nome = _nome;
         this.anoCriacao = _anoCriacao;
     }
+
+
 }
